@@ -79,15 +79,7 @@ const Hero = () => {
                 <Star className="w-5 h-5 text-slate-300 group-hover:text-green-400" />
                 <span className="text-slate-300 group-hover:text-green-400">Fiverr</span>
               </a>
-        <a 
-  href="/images/Malik_Saad_Ahmed_CV.pdf" 
-  target="_blank" 
-  rel="noopener noreferrer"
-  className="group flex items-center gap-2 bg-slate-800/50 backdrop-blur-sm px-4 py-2 rounded-full hover:bg-emerald-600/50 transition-all duration-300"
->
-  <FileText className="w-5 h-5 text-slate-300 group-hover:text-emerald-400" />
-  <span className="text-slate-300 group-hover:text-emerald-400">CV</span>
-</a>
+        
   
             </div>
             
