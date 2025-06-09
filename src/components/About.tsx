@@ -39,11 +39,11 @@ const About = () => {
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="bg-slate-800/30 backdrop-blur-sm p-4 rounded-xl border border-slate-700/50">
                 <h4 className="text-cyan-400 font-semibold mb-2">Education</h4>
-                <p className="text-sm text-slate-300">Bachelor of AI from Air University</p>
+                <p className="text-sm text-slate-300">Bachelor of Science AI from Air University</p>
               </div>
               <div className="bg-slate-800/30 backdrop-blur-sm p-4 rounded-xl border border-slate-700/50">
                 <h4 className="text-teal-400 font-semibold mb-2">Experience</h4>
-                <p className="text-sm text-slate-300">AI Engineer & Data Professional</p>
+                <p className="text-sm text-slate-300">AI Engineer & Freelance Data Analyst</p>
               </div>
             </div>
           </div>
