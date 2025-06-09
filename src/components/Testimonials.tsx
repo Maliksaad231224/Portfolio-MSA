@@ -97,6 +97,12 @@ const testimonials = [
       "Thank you for your hard work. Would hire again and recommend if you have similar work.",
     rating: 5,
   },
+  {
+    name: "justin_delv",
+    location:"United Kingdom",
+    feedback:"A great fiverr agent, worked quickly and efficiently on our project. A very reliable guy, one to be trusted. If you have a data issue, this guys is the one to reach out to, if you want it to be a good project.",
+    rating:5
+  },
 ];
   return (
     <section className="py-20 relative">
