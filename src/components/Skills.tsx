@@ -54,7 +54,7 @@ const Skills = () => {
             </p>
                   <p className="text-xl text-slate-300 mb-8 leading-relaxed">
               Furthermore, I have offered mentorships to my university juniors and guided them in the development of their
-              DBMS Business Management Applications susing QT Creator. I have delievered worked on Github and Excel to a wide
+              DBMS Business Management Applications susing QT Creator. I have delievered workshops on Github and Excel to a wide
               range of audiences.
             </p>
             
