@@ -113,44 +113,6 @@ const Contact = () => {
               </Button>
             </form>
           </div>
-          
-          {/* Contact Info */}
-          <div className="space-y-8">
-            <div className="bg-slate-800/30 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50">
-              <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
-              
-              <div className="space-y-6">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full flex items-center justify-center">
-                    <MapPin className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="text-white font-semibold">Location</h4>
-                    <p className="text-slate-300">Islamabad, Pakistan</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="text-white font-semibold">Phone</h4>
-                    <p className="text-slate-300">+92 335 6665355</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-cyan-400 rounded-full flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="text-white font-semibold">Email</h4>
-                    <p className="text-slate-300">awansaad6927@gmail.com</p>
-                  </div>
-                </div>
-              </div>
-            </div>
             
             {/* Footer */}
             <div className="text-center text-slate-400">
