@@ -119,9 +119,7 @@ const Contact = () => {
               Want to work together or have questions? Just fill out the form or contact me directly!
             </p>
             <div className="space-y-2">
-              <p><strong>Email:</strong> saad@example.com</p>
-              <p><strong>Phone:</strong> +123456789</p>
-              <p><strong>Location:</strong> Your City, Country</p>
+            
             </div>
           </div>
         </div>
