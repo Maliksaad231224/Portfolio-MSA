@@ -1,9 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
-import { MapPin, Phone, Mail, Send } from "lucide-react";
+import { Send } from "lucide-react";
 
 const Contact = () => {
   const subjects = [
@@ -26,7 +25,7 @@ const Contact = () => {
             </span>
           </h2>
         </div>
-        
+
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Form */}
           <div className="bg-slate-800/30 backdrop-blur-sm p-8 rounded-2xl border border-slate-700/50">
@@ -36,7 +35,7 @@ const Contact = () => {
                   <label className="block text-sm font-medium text-slate-300 mb-2">
                     First Name
                   </label>
-                  <Input 
+                  <Input
                     className="bg-slate-700/50 border-slate-600 text-white placeholder:text-slate-400 focus:border-cyan-400"
                     placeholder="Enter your first name"
                   />
@@ -45,19 +44,19 @@ const Contact = () => {
                   <label className="block text-sm font-medium text-slate-300 mb-2">
                     Last Name
                   </label>
-                  <Input 
+                  <Input
                     className="bg-slate-700/50 border-slate-600 text-white placeholder:text-slate-400 focus:border-cyan-400"
                     placeholder="Enter your last name"
                   />
                 </div>
               </div>
-              
+
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-slate-300 mb-2">
                     Email
                   </label>
-                  <Input 
+                  <Input
                     type="email"
                     className="bg-slate-700/50 border-slate-600 text-white placeholder:text-slate-400 focus:border-cyan-400"
                     placeholder="Enter your email"
@@ -67,14 +66,14 @@ const Contact = () => {
                   <label className="block text-sm font-medium text-slate-300 mb-2">
                     Phone Number
                   </label>
-                  <Input 
+                  <Input
                     type="tel"
                     className="bg-slate-700/50 border-slate-600 text-white placeholder:text-slate-400 focus:border-cyan-400"
                     placeholder="Enter your phone"
                   />
                 </div>
               </div>
-              
+
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-4">
                   Select Subject?
@@ -82,11 +81,11 @@ const Contact = () => {
                 <div className="grid grid-cols-2 gap-4">
                   {subjects.map((subject, index) => (
                     <div key={index} className="flex items-center space-x-2">
-                      <Checkbox 
+                      <Checkbox
                         id={subject}
                         className="border-slate-600 data-[state=checked]:bg-cyan-500 data-[state=checked]:border-cyan-500"
                       />
-                      <label 
+                      <label
                         htmlFor={subject}
                         className="text-sm text-slate-300 cursor-pointer hover:text-white transition-colors"
                       >
@@ -96,29 +95,40 @@ const Contact = () => {
                   ))}
                 </div>
               </div>
-              
+
               <div>
                 <label className="block text-sm font-medium text-slate-300 mb-2">
                   Message
                 </label>
-                <Textarea 
+                <Textarea
                   className="bg-slate-700/50 border-slate-600 text-white placeholder:text-slate-400 focus:border-cyan-400 min-h-32"
                   placeholder="Write your message..."
                 />
               </div>
-              
+
               <Button className="w-full bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white py-3 rounded-full hover:scale-105 transition-all duration-300">
                 <Send className="w-5 h-5 mr-2" />
                 Let's Talk
               </Button>
             </form>
           </div>
-            
-            {/* Footer */}
-            <div className="text-center text-slate-400">
-              <p>© 2025 Malik Saad Ahmed. All rights reserved.</p>
+
+          {/* Placeholder for second column (e.g., contact info, map, etc.) */}
+          <div className="bg-slate-800/20 border border-slate-700/50 rounded-2xl p-8 flex flex-col justify-center text-slate-300">
+            <p className="text-lg mb-4">
+              Want to work together or have questions? Just fill out the form or contact me directly!
+            </p>
+            <div className="space-y-2">
+              <p><strong>Email:</strong> saad@example.com</p>
+              <p><strong>Phone:</strong> +123456789</p>
+              <p><strong>Location:</strong> Your City, Country</p>
             </div>
           </div>
+        </div>
+
+        {/* Footer - moved outside grid */}
+        <div className="text-center text-slate-400 mt-16">
+          <p>© 2025 Malik Saad Ahmed. All rights reserved.</p>
         </div>
       </div>
     </section>
